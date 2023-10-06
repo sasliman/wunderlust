@@ -116,3 +116,14 @@ header {
     padding: 0;
     position: absolute;
 }
+
+input[type="checkbox"] {
+    opacity: 0;
+}
+
+@media screen and (min-width: 320px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
