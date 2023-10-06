@@ -90,16 +90,14 @@ h4 {
 }
 
 #skip {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
+    height: 30px;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
 }
 
 #skip:focus {
-    position:static;
-    width:auto;
-    height:auto;
+    transform: translateY(0%);
+   background: #e77e23;
 }
