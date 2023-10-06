@@ -65,6 +65,10 @@ table {
 @import url(https://fonts.google.com/share?selection.family=Molle:ital@1%7CMontserrat 
 );
 
+body {
+    margin: 0 auto;
+}
+
 h1, h2, h3 {
     font-family: Molle, script;
 }
