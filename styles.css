@@ -99,5 +99,9 @@ h4 {
 
 #skip:focus {
     transform: translateY(0%);
-   background: #e77e23;
+   background: var(--purple);
+}
+
+header {
+    background-image: linear-gradient(#55BCD5, #55bbd500)
 }
