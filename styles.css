@@ -547,10 +547,6 @@ footer a {
         margin-top: 10px;
     }
 
-    #nums fieldset {
-        /*flex-direction: row;*/
-
-    }
     fieldset label{
         align-items: center;
         display: flex;
@@ -570,4 +566,17 @@ footer a {
         display: inline;
     }
     
+}
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        display: inline;
+    }
+
 }
